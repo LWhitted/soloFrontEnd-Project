@@ -1,0 +1,29 @@
+body{
+    background: url('/images/sky.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Tahoma, sans-serif;
+}
+#welcome{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+
+.card{
+    display: flex;
+    width: 600px;
+   margin-left: 30%;
+   background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+
+
+
+
