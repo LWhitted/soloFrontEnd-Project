@@ -44,7 +44,9 @@ async function fetchWeather(search) {
 
 
 
-        searchResultElement.innerHTML = `<p>The current temperature in ${cityName} is ${currentTemp} degrees.</p>
+        searchResultElement.innerHTML = `<h2>${cityName}</h2>
+        <br>
+        <p>The current temperature in ${cityName} is ${currentTemp} degrees.</p>
         <br>
         <p>The  current weather conditions are ${weatherDescription}.</p>
         <br>
