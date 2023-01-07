@@ -36,7 +36,7 @@
         <div class="col-12 search">
             <form id="search-form">
                 <div class="input-group input-group-lg">
-                    <input class="form-control search-bar" placeholder="Search weather by city" />
+                    <input id="searchBar" class="form-control search-bar" placeholder="Search weather by city" />
                     <button class="btn btn-primary input-group-btn" type="submit">
                         Search
                     </button>
@@ -47,18 +47,12 @@
     </div>
     <br>
 
-    <div class="card" style="width: 18rem;">
-        <img src="" class="card-img-top" alt="...">
+    <div id="cardDisplay"class="card" style="width: 18rem; display: none">
+        <img src="" id="cardPhoto" class="card-img-top" alt="...">
         <div class="card-body">
-            <div id="weather"></div>
-            <br>
-            <div id="conditions"></div>
-            <br>
-            <div id="feels"></div>
-            <br>
-            <div id="airQuality"></div>
-            <br>
-            <div id="moreInfo"></div>
+            <div id="weatherResults"></div> 
+            <div id="airQualityResults"></div>
+            <button id="addButton" onclick="()=>addCities">Add to Saved Cities</button>
         </div>
     </div>
 
